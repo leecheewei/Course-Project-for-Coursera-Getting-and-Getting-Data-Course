@@ -22,6 +22,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 Training and test data were first merged together to create one data set, then the measurements on the mean and standard deviation were extracted for each measurement (79 variables extracted from the original 561), and then the measurements were averaged for each subject and activity, resulting in the final data set.
 
 
+
 Information on run_analysis.R
 
 The R script run_analysis.R can be used to create the data set as required by the course project. Description is included in the code itself for easy understanding. The script process the original data files in the following steps. 
@@ -34,12 +35,12 @@ The R script run_analysis.R can be used to create the data set as required by th
     - 'train/y_train.txt': Training labels.
     - 'test/X_test.txt': Test set.
     - 'test/y_test.txt': Test labels.activity_labels, features. 
-Merge the training and the test sets to create one data set.
-Extract only the measurements on the mean and standard deviation for each measurement.
-Use descriptive activity names to name the activities in the data set.
-Appropriately label the data set with descriptive variable names.
-Create a second, independent tidy set with the average of each variable for each activity and each subject.
-Write the data set to the tidy_data.txt file.
-The tidy_data.txt in this repository was created by running the run_analysis.R script using R version 3.2.2 (2015-08-14) on Windows 8.1 64-bit edition.
+3. Naming all the columns with the descriptive names
+4. Merging the tables
+5. Extracting only the mean and standard deviation measurements
+6. Use descriptive activity and variable names to label the activities and features names in the data table
+7. Creates a second, independent tidy data set and write to the text file 'TidyData.txt'
+
+The TidyData.txt in this repository was created by running the run_analysis.R script using R version 3.2.2 (2015-08-14) on Windows 8.1 64-bit edition.
 
 This script requires the dplyr package (version 0.4.3 was used).
