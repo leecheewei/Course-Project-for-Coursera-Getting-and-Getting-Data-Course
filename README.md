@@ -21,6 +21,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Training and test data were first merged together to create one data set, then the measurements on the mean and standard deviation were extracted for each measurement (79 variables extracted from the original 561), and then the measurements were averaged for each subject and activity, resulting in the final data set.
 
+
 Information on 'run_analysis.R'
 The R script run_analysis.R can be used to create the data set as required by the course project. Description is included in the code itself for easy understanding. The script process the original data files in the following steps. 
 
