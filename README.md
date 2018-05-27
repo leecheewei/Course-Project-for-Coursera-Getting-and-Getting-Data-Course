@@ -41,6 +41,5 @@ The R script run_analysis.R can be used to create the data set as required by th
 6. Use descriptive activity and variable names to label the activities and features names in the data table
 7. Creates a second, independent tidy data set and write to the text file 'TidyData.txt'
 
-The TidyData.txt in this repository was created by running the run_analysis.R script using R version 3.2.2 (2015-08-14) on Windows 8.1 64-bit edition.
+The TidyData.txt in this repository was created by running the run_analysis.R script using R version 3.4.4 on Windows 10 Professional 64-bit edition.
 
-This script requires the dplyr package (version 0.4.3 was used).
