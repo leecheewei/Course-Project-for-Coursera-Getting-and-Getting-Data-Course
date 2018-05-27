@@ -23,6 +23,7 @@ Training and test data were first merged together to create one data set, then t
 
 
 Information on run_analysis.R
+
 The R script run_analysis.R can be used to create the data set as required by the course project. Description is included in the code itself for easy understanding. The script process the original data files in the following steps. 
 
 1. Download and unzip source data if it doesn't exist.
