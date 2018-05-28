@@ -13,7 +13,7 @@ CodeBook.md, the code book, which describes the contents of the data set.
 run_analysis.R, the R script that was used to create the data set
 
 
-##Study design
+Study design-----------------
 
 The source data set that this project was based on was obtained from the Human Activity Recognition Using Smartphones Data Set, which describes how the data was initially collected as follows:
 
